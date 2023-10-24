@@ -71,6 +71,17 @@ p {
   font-weight: bold;
   text-decoration: none;
 }
+footer {
+  text-align: center;
+  color: var(--secondary-color);
+}
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--fourth-color);
+}
 a:visited {
   text-decoration: none;
 }
@@ -91,5 +102,8 @@ img {
   }
   p {
     text-align: center;
+  }
+  h1 {
+    font-size: 64px;
   }
 }
