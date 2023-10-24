@@ -6,19 +6,35 @@
   --third-color: #2c786c;
 
   --fourth-color: #004445;
+
+  --font-one: "Patrick Hand", cursive;
+  --font-two: "Comic Neue", cursive;
 }
 .hero {
   background: var(--third-color);
   color: var(--secondary-color);
   text-align: center;
+  padding: 80px 0px;
 }
 #homepageButton {
   background: var(--primary-color);
   color: var(--secondary-color);
+  margin: 30px 0px 0px 0px;
+  font-family: var(--font-two);
+  font-weight: bold;
 }
-.welcome {
+.hero p {
   font-size: 36px;
+  font-family: var(--font-one);
+  padding: 30px 0px 0px 0px;
 }
 h1 {
   font-size: 96px;
+  font-family: var(--font-two);
+  margin: 0;
+}
+h2 {
+  font-family: var(--font-one);
+  font-size: 36px;
+  margin: 0;
 }
