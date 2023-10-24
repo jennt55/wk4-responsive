@@ -1,18 +1,11 @@
-/*font-family: 'Patrick Hand', cursive;
-/*<i class="fa-solid fa-tree" style="color: #000000;"></i> TREE
-<i class="fa-solid fa-seedling" style="color: #000000;"></i> SEEDLING
-<i class="fa-solid fa-leaf" style="color: #000000;"></i> LEAF
-<i class="fa-solid fa-worm" style="color: #000000;"></i> WORM
-<i class="fa-solid fa-microscope" style="color: #000000;"></i> MICROSCOPE
-<i class="fa-solid fa-temperature-low" style="color: #000000;"></i> TEMP LOW
-<i class="fa-solid fa-temperature-high" style="color: #000000;"></i> TEMP HIGH
-<i class="fa-solid fa-recycle" style="color: #000000;"></i> RECYCLE
-<i class="fa-brands fa-facebook" style="color: #000000;"></i> FACEBOOK
-<i class="fa-brands fa-instagram" style="color: #000000;"></i> INSTAGRAM
-<i class="fa-regular fa-envelope" style="color: #000000;"></i> EMAIL
-<i class="fa-brands fa-linkedin" style="color: #000000;"></i> LINKEDIN
-<i class="fa-solid fa-cloud" style="color: #000000;"></i> CLOUD
-<i class="fa-solid fa-sun" style="color: #000000;"></i> SUN
-<i class="fa-solid fa-umbrella" style="color: #000000;"></i> UMBRELLA
-<i class="fa-regular fa-snowflake" style="color: #000000;"></i> SNOWflAKE
-<i class="fa-solid fa-cloud-sun-rain" style="color: #000000;"></i> ALL WEATHERS
+:root {
+  --primary-color: #f8b400;
+
+  --secondary-color: #faf5e4;
+
+  --third-color: #2c786c;
+
+  --fourth-color: #004445;
+}
+.hero {
+}
