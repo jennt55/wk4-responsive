@@ -10,6 +10,10 @@
   --font-one: "Patrick Hand", cursive;
   --font-two: "Comic Neue", cursive;
 }
+body {
+  background: var(--third-color);
+  color: var(--fourth-color);
+}
 .hero {
   background: var(--third-color);
   color: var(--secondary-color);
@@ -32,6 +36,7 @@ h1 {
   font-size: 96px;
   font-family: var(--font-two);
   margin: 0;
+  text-align: center;
 }
 h2 {
   font-family: var(--font-one);
@@ -43,4 +48,48 @@ h2 {
   background: var(--fourth-color);
   color: var(--secondary-color);
   text-align: center;
+  padding: 5px;
+}
+.border {
+  border-color: var(--third-color);
+}
+h4 {
+  font-size: 64px;
+  font-family: var(--font-two);
+  margin: 20px 20px;
+}
+p {
+  font-size: 16px;
+  font-family: var(--font-two);
+  margin: 20px 20px;
+}
+.inTheGardenButton {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 10px;
+  font-family: var(--font-two);
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.container {
+  background: var(--secondary-color);
+  color: var(--fourth-color);
+  margin: 10px auto;
+  border-radius: 6px;
+}
+img {
+  border-radius: 6px;
+  margin: 20px 10px;
+  display: block;
+}
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  p {
+    text-align: center;
+  }
 }
