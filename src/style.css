@@ -8,4 +8,17 @@
   --fourth-color: #004445;
 }
 .hero {
+  background: var(--third-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+#homepageButton {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+.welcome {
+  font-size: 36px;
+}
+h1 {
+  font-size: 96px;
 }
