@@ -38,3 +38,9 @@ h2 {
   font-size: 36px;
   margin: 0;
 }
+.introSection {
+  font-family: var(--font-one);
+  background: var(--fourth-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
