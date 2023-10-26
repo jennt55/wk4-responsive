@@ -21,12 +21,11 @@ body {
   background: var(--third-color);
   color: var(--secondary-color);
   text-align: center;
-  padding: 20px 0px;
 }
 #homepageButton {
   background: var(--primary-color);
   color: var(--secondary-color);
-
+  margin: 20px 0px 0px 0px;
   font-family: var(--font-two);
   font-weight: bold;
   text-align: center;
@@ -45,7 +44,7 @@ h1 {
 h2 {
   font-family: var(--font-one);
   font-size: 36px;
-  margin: 0;
+  margin: 20px 0px 0px 0px;
 }
 .introSection {
   font-family: var(--font-one);
